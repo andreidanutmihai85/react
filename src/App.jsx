@@ -18,7 +18,7 @@ function App() {
 return (
 
 <>
-  {fruits.length > 0 ? <List items={fruits} /> : "nimic"}
+  {fruits.length > 0 ? <List items={fruits} /> : "nimica"}
 
 
 
