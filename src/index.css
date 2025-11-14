@@ -36,3 +36,11 @@
 .student p {
   margin: 0;
 }
+
+.welcome-message{
+  color: green;
+}
+
+.login-prompt{
+  color: red;
+}
