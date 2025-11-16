@@ -1,17 +1,14 @@
 import PropTypes from "prop-types";
 
-function List ({cat}){
+function List ({fruits, vegetables}){
 
 
-const itemList = items;
-const cat = category;
 
-    const listItems= itemList.map( item => <li key={item.id}>{item.name}: &nbsp;{item.calories}</li>);
 
 return(
     <>
-    <h2>{cat}</h2>
-<ul>{listItems }</ul>
+const fruit = {fruits}
+const vegetable = {vegetables}
 </>
 );
 
@@ -19,9 +16,7 @@ return(
 
 }
 
-List.defaultProps = {
-  cat: 'Hello, world!',
-};
+
 
 export default List
 

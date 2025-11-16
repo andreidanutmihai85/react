@@ -16,6 +16,7 @@ function App() {
        ];
 
 return (
+  //nota
 
 <>
   {fruits.length > 0 ? <List items={fruits} /> : "nimica"}
