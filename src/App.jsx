@@ -1,30 +1,15 @@
-import Card from "./Card";
+import Card from "./Card"
 import Button from "./Button/Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
 
 function App() {
-      const fruits = [
-        {name: "apple", calories:95, id: 55},
-        {name: "orange", calories:33, id: 44},
-       ];
 
-      const vegetables= [
-        {name: "carrot", calories:955, id: 56},
-        {name: "corn", calories:433, id: 46},
-       ];
 
 return (
-  //nota
+<Student person={{ name: 'Lin Lanying',age: 10}}/>
 
-<>
-  {fruits.length > 0 ? <List items={fruits} /> : "nimica"}
-
-
-
-<List items={vegetables} />
-</>
 );
 }
 
